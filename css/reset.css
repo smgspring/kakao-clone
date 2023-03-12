@@ -127,3 +127,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* 내가 추가한 것들. */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input {
+  font-family: "NeoDunggeunmoPro-Regular";
+}

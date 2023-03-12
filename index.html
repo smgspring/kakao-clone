@@ -5,20 +5,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
     <title></title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No service</span>
-        <object data="images/wifi.svg" width="20px" height="15px"></object>
+        <i class="fas fa-wifi fa-sm"></i>
       </div>
       <div class="status-bar__column">
         <span>02:08</span>
       </div>
       <div class="status-bar__column">
         <span>11%</span>
-        <object data="images/battery.svg" width="40px"></object>
+        <i class="fas fa-battery-quarter fa-lg"></i>
       </div>
     </div>
     <header class="haedungtalk-header">
@@ -27,12 +31,20 @@
         If you have a Haedung Account, log in with your email or phone number.
       </p>
     </header>
-    <form>
-      <input type="text" placeholder="Email or phone number" />
-      <input type="text" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <input type="submit" value="Sign Up" />
-      <a href="#">Find Haedung Account or Password</a>
+    <form class="sign-in-box">
+      <input
+        type="text"
+        placeholder="Email or phone number"
+        class="sign-in-box-inform"
+      />
+      <input type="text" placeholder="Password" class="sign-in-box-inform" />
+      <input
+        type="submit"
+        value="Log In"
+        class="sign-in-box-button index-top-button"
+      />
+      <input type="submit" value="Sign Up" class="sign-in-box-button" />
+      <a href="#" class="sign-in-box-link">Find Haedung Account or Password</a>
     </form>
   </body>
 </html>

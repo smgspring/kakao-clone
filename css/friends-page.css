@@ -1,0 +1,58 @@
+.friends-secondbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.friends-secondbox > span {
+  margin: 0px 10px;
+}
+.friends-secondbox > div {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa9a9;
+  border-radius: 50%;
+}
+.friends-channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 20px;
+}
+.friends-subbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friends-subbox-box > img {
+  height: 40px;
+  width: 40px;
+}
+.friends-subbox-box > span {
+  font-size: 20px;
+}
+.friends-subbox-iconbox {
+  margin-right: 20px;
+}
+.friends-footer-box {
+  position: relative;
+}
+.friends-footer-box-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 13px;
+  bottom: 10px;
+}
+.friends-mainbox {
+  padding-bottom: 20px;
+  border-bottom: solid 3px white;
+}

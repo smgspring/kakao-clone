@@ -1,0 +1,51 @@
+.haedungtalk-header {
+  display: flex;
+  text-align: center;
+  margin: 80px 0px;
+  flex-direction: column;
+  align-items: center;
+}
+.haedungtalk-header__text:first-child {
+  font-size: 25px;
+}
+.haedungtalk-header__text:last-child {
+  margin-top: 30px;
+  width: 60%;
+  opacity: 0.6;
+}
+.sign-in-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign-in-box-inform {
+  width: 80%;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 20px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+.sign-in-box-inform:focus {
+  border-bottom: solid 3px white;
+  color: white;
+}
+.sign-in-box-inform::placeholder {
+  color: white;
+}
+.sign-in-box-button {
+  width: 80%;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px grey;
+}
+.index-top-button {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.sign-in-box-link {
+  margin-top: 20px;
+}

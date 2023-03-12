@@ -1,0 +1,44 @@
+.header-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.header-component > span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.header-icon-component {
+  display: flex;
+  justify-content: space-around;
+}
+.header-icon-component i {
+  margin: 0px 10px;
+}
+.profile-component {
+  display: flex;
+  margin: 10px 20px;
+  align-items: center;
+}
+
+.profile-component > img {
+  height: 60px;
+  width: 60px;
+  border-radius: 20%;
+}
+.profile-component > span {
+  font-size: 30px;
+  margin-left: 20px;
+}
+.footer-component {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  height: 7vh;
+  width: 100%;
+  bottom: 0px;
+}
